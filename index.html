@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./styles/styles.css">
+	<title>Fight Night!</title>
+</head>
+<body>
+<i class="fas fa-volume-off"></i>
+	<audio id="mortalKombat" src="./media/mortalKombat.mp3" loop="loop"></audio>
+	<audio id="bearRoar" src='./media/bear.mp3'></audio>
+	<!---- Choose Fighter Menu -->
+	<header class="header">
+		<h1>choose your fighter</h1>
+	</header>
+	<div id="" class="wrapper">
+		<div id="choose" class="character1">
+			<div class="opacityCharacter1"></div>
+			<button class="">SELECT THIS FIGHTER</button>
+		</div>
+		<div  id="choose" class="character2">
+			<div class="opacityCharacter2"></div>
+			<button class="">SELECT THIS FIGHTER</button>
+		</div>
+		<div  id="choose" class="character3">
+			<div class="opacityCharacter3"></div>
+			<button class="">SELECT THIS FIGHTER</button>
+		</div>
+		<div class="bear notChosen"></div>
+		<div class="playerSelection notChosen"></div>
+		<div class="computerSelection notChosen"></div>
+	</div>
+	<div id="choices" class="notChosen">
+			<ul>
+				<li><button class="rock">rock</button></li>
+				<li><button class="paper">paper</button></li>
+				<li class=".scissorsLi"><button class="scissors">scissors</button></li>
+				<li id="backToCharSelect"><button class="backToCharSelect">Select A New Character</button></li>
+			</ul>
+		</div>
+<script type="text/javascript" src="./scripts/main.js"></script>
+</body>
+</html>
