@@ -1,13 +1,12 @@
 window.onload = function() {
     let mortalKombat = document.getElementById("mortalKombat");
-    mortalKombat.play();
-    mortalKombat.muted = true;
 }
 
 volumeButton = document.querySelector('i');
 volumeButton.addEventListener('click', (e) => {
 	if(e.target.classList[1] === 'fa-volume-off'){
 	volumeButton.classList.replace('fa-volume-off', 'fa-volume-up');
+	mortalKombat.play();
 	mortalKombat.muted = false;
 	}else {
 	volumeButton.classList.replace('fa-volume-up', 'fa-volume-off');

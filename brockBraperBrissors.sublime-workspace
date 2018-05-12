@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"fa",
+				"fa-volume-off"
+			],
+			[
+				"computer",
+				"computerSelectionNew\tany"
+			],
+			[
+				"clear",
+				"clearInterval\t(intervalID: number)"
+			],
+			[
+				"set",
+				"setInterval\t(func: function, milliseconds: number, ...params?: any) => number"
+			],
+			[
+				"testPara",
+				"testParaCounter\tany | number"
+			],
+			[
+				"get",
+				"getElementById\t(elementId: string) => (HTMLElement | null)"
+			],
+			[
+				"selec",
+				"selectedFighterEffects\tempty"
+			],
+			[
 				"grid",
 				"grid-area\tproperty"
 			],
@@ -87,7 +115,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1389,
+				"buffer_size": 1680,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -96,7 +124,7 @@
 			"file": "styles/styles.css",
 			"settings":
 			{
-				"buffer_size": 7358,
+				"buffer_size": 4429,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -105,7 +133,7 @@
 			"file": "scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 1850,
+				"buffer_size": 5594,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -152,10 +180,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/user/web-projects/brockBraperBrissors",
-		"/Users/user/web-projects/brockBraperBrissors/media",
-		"/Users/user/web-projects/brockBraperBrissors/scripts",
-		"/Users/user/web-projects/brockBraperBrissors/styles"
+		"/Users/user/web-projects/brockBraperBrissors"
 	],
 	"file_history":
 	[
@@ -176,7 +201,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -190,6 +215,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"let computerSelection",
+			"computerSelection",
+			"computerSelectionBox",
+			"playerSelection"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -216,26 +245,27 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1389,
+						"buffer_size": 1680,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								280,
-								280
+								442,
+								442
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 78.0,
+						"translation.y": 30.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -244,15 +274,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7358,
+						"buffer_size": 4429,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								326,
-								257
+								1160,
+								1160
 							]
 						],
 						"settings":
@@ -260,10 +290,10 @@
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 475.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -272,15 +302,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1850,
+						"buffer_size": 5594,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								141,
-								141
+								148,
+								148
 							]
 						],
 						"settings":
@@ -301,7 +331,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -334,11 +364,15 @@
 	{
 		"height": 0.0
 	},
+	"output.unsaved_changes":
+	{
+		"height": 108.0
+	},
 	"pinned_build_system": "",
 	"project": "brockBraperBrissors.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -376,7 +410,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 177.0,
+	"side_bar_width": 215.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
